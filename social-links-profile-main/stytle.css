@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cor_de_fundo{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: .5rem;
+    width: 400px;
+    height: 660px;
+}
+
+.container {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; /* Para centralizar verticalmente */
+}
+
+.Meu_perfil {
+
+    font-family: 'inter', sans-serif;
+    text-align: center;
+    
+}
+
+.Nome_da_Pessoa{
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.Minha_foto {
+    border-radius: 50%;
+    max-width: 130px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.Minha_informacoes {
+    font-family: 'inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Paragrafo {
+    Font-size: 14px;
+    margin-bottom: 30px;
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+}
+#Paragrafo_p {
+  margin-bottom: 30px;
+  color:hsl(0, 0%, 100%);
+}
+
+.btn {
+
+    color: hsl(0, 0%, 100%);
+    padding: 14px;
+    margin: 5px auto;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-size:14px;
+    width: 350px;
+    background-color: hsl(0, 0%, 12%);
+    font-weight:700;
+    
+}
+ 
+button:hover {
+    background-color:hsl(75, 94%, 57%);
+    color:  hsl(0, 0%, 8%);
+}
